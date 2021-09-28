@@ -12,11 +12,11 @@ timer.innerText = "00:00";
 let timeForTimer = 0;
 plusMinute.addEventListener('click', function() {
     timeForTimer = timeForTimer + 2700;
-    timer.innerText = timeForTimer;
+    timer.innerText = "45:00";
 })
 plusHour.addEventListener('click', function() {
     timeForTimer = timeForTimer + 3600;
-    timer.innerText = timeForTimer;
+    timer.innerText = "01:00:00";
 })
 
 start.addEventListener('click', function() {
